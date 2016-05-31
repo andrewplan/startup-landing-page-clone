@@ -1,5 +1,23 @@
+/* Navigation Section */
+
+.top-navigation {
+	background-color: #fff;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-left: 14px;
+	height: 70px;
+}
+
 body {
-	background-color: LightGray;
+	background-color: white;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;x
 }
 div {
 	border: 1px solid Chocolate;
