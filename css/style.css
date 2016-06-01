@@ -6,6 +6,10 @@ body {
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 .content {
 	width: 970px;
 	height: 70px;
@@ -14,14 +18,13 @@ body {
 	box-sizing: border-box;
 }
 
-*, *:before, *:after {
-	box-sizing: inherit;
-}
-
 /* Navigation Section */
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999%;
 }
 
 .logo {
@@ -58,7 +61,7 @@ body {
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 664px;
+	height: 45.938rem;
 	overflow: auto;
 }
 
@@ -77,11 +80,13 @@ body {
 	color: white;
 	text-align: center;
 	font-weight: 300;
+	letter-spacing: 0.03em;
 }
 
 button {
 	text-shadow: none;
 	font-size: 1.125rem;
+	letter-spacing: 0.03em;
 	color: white;
 	text-align: center;
 	border-style: none;
@@ -98,3 +103,18 @@ button:hover {
 	cursor: pointer;
 }
 
+.cases h2, h3 {
+	color: black;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 1em;
+}
+
+.cases .devices > li {
+	width: 30.3333333%;
+	display: inline-block;
+	/* styles to assist with debugging */
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+}
