@@ -134,16 +134,18 @@ button:hover {
 }
 
 footer {
-    margin-top: 25em
+    margin-top: 25em;
+    margin-bottom: 12em;
 }
 
 .social .icons > li {
-    width: 23px;
+    width: 30px;
+    height: 30px;
     display: inline-block;
     border-radius: 120%;
-    background-color: lightgray;
+    border: 1px solid #E0E1FF;
     text-align: center;
-    margin-left: 2em
+    margin-left: 2em;
 }
 
 footer h4 {
@@ -157,13 +159,11 @@ footer h4 {
 }
 
 .Karma {
-    color: #A8A9BF;
+    color: #D3D4F0;
     font-weight: 300;
     letter-spacing: 0.05em;
-    font-size: .9em;
+    font-size: .89em;
 }
-
-
 
 .social img {
     margin: 0 auto;
@@ -174,7 +174,7 @@ footer h4 {
 }
 
 .facebook {
-    color:royalblue
+    color:royalblue;
 }
 
 .instagram {
@@ -184,7 +184,11 @@ footer h4 {
 .icons {
     width: 300px;
     margin: 0 auto;
-    padding-left: 3em;
+    padding-left: em;
+}
+
+i {
+    margin-top: .38em;
 }
 
 hr {
