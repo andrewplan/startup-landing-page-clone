@@ -124,10 +124,70 @@ button:hover {
 }
 
 .cases .devices > li {
-	width: 33%;
-	display: inline-block; 
+	width: 33.3333333%;
+	display: inline-block;
+    margin-left: -.4em
 }
 
 .cases img {
 	margin-left: 4.75em;
+}
+
+footer {
+    margin-top: 25em
+}
+
+.social .icons > li {
+    width: 23px;
+    display: inline-block;
+    border-radius: 120%;
+    background-color: lightgray;
+    text-align: center;
+    margin-left: 2em
+}
+
+footer h4 {
+    text-align: center;
+}
+
+.join-us {
+    color: #1d1e21;
+    font-weight: 400;
+    letter-spacing: 0.0175em;
+}
+
+.Karma {
+    color: #A8A9BF;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    font-size: .9em;
+}
+
+
+
+.social img {
+    margin: 0 auto;
+}
+
+.twitter {
+    color:aqua;
+}
+
+.facebook {
+    color:royalblue
+}
+
+.instagram {
+    color:steelblue;
+}
+
+.icons {
+    width: 300px;
+    margin: 0 auto;
+    padding-left: 3em;
+}
+
+hr {
+    border-top: 1px solid #eaebec;
+    margin: 1.5rem 0;
 }
